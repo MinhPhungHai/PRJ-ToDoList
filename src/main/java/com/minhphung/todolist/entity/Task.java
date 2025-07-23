@@ -34,11 +34,15 @@ public class Task {
     @Column(name = "urgent")
     private boolean urgent;
 
-    //Not a user input
+    @Column(name = "start_time")
+    private LocalDateTime startTime;
+
+    @Column(name = "end_time")
+    private LocalDateTime endTime;
+
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 
-    //Change after
     @Column(name = "completed")
     private boolean completed;
 

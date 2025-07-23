@@ -11,6 +11,8 @@ public class TaskMapper {
                 task.getDescription(),
                 task.getDeadline(),
                 task.isUrgent(),
+                task.getStartTime(),
+                task.getEndTime(),
                 task.getCreatedAt(),
                 task.isCompleted(),
                 task.getDoneAt());
@@ -23,6 +25,8 @@ public class TaskMapper {
                 taskDto.getDescription(),
                 taskDto.getDeadline(),
                 taskDto.isUrgent(),
+                taskDto.getStartTime(),
+                taskDto.getEndTime(),
                 taskDto.getCreatedAt(),
                 taskDto.isCompleted(),
                 taskDto.getDoneAt());

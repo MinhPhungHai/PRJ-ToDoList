@@ -16,4 +16,7 @@ public interface TaskService {
     List<TaskDto> getAllIncompleteTasks();
     List<TaskDto> getAllUrgentTasks();
     List<TaskDto> getAllNonUrgentTasks();
+
+    boolean validateTaskTimeRangeOverlap(TaskDto taskDto);
+    boolean hasValidTimeRange(TaskDto taskDto);
 }

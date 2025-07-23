@@ -23,6 +23,8 @@ public class TaskDto {
     private String description;
     private LocalDateTime deadline;
     private boolean urgent;
+    private LocalDateTime startTime;
+    private LocalDateTime endTime;
 
     //Not a user input
     private LocalDateTime createdAt;
